@@ -67,15 +67,15 @@ body {
   padding-left: 15px;
 }
 
-.second-component,
-.third-component {
+.sidebar > .second-component,
+.sidebar > .third-component {
   display: grid;
 
   padding-left: 25px;
 }
 
-.second-component span,
-.third-component span {
+.sidebar > .second-component span,
+.sidebar > .third-component span {
   color: white;
   font-size: 1rem;
   font-weight: bolder;
@@ -88,41 +88,3 @@ body {
 .main-content {
   background-color: #e2e8f0;
 }
-/* .main-container {
-  background-color: aquamarine;
-  width: 100vw;
-  height: 100vh;
-
-  display: grid;
-
-  grid-template-columns: 1fr 1fr;
-} */
-
-/* .sidebar {
-  background-color: #1a92d3;
-  min-width: 320px;
-
-  display: grid;
-
-  grid-template-rows: 75px 150px 150px;
-} */
-
-/* .sidebar > .first-component {
-  width: auto;
- 
-} */
-
-/* .sidebar > .second-component {
-  width: auto;
-  
-} */
-
-/* .sidebar > .third-component {
-  width: auto;
-
-} */
-
-/* .main-content {
-  background-color: rgb(148, 127, 255);
-  min-width: 981px;
-} */
