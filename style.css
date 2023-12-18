@@ -83,8 +83,81 @@ body {
 
 .header {
   background-color: #ffffff;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 3fr 5fr;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
+.header > .first-component {
+  /* background-color: rgb(210, 239, 244); */
+  display: grid;
+  align-items: center;
+  grid-template-columns: 35px 55% 35px 45px 200px;
+  gap: 30px;
+  /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
+  padding-left: 25px;
+}
+
+.admin-profile-pic {
+  background-color: rgb(238, 172, 161);
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+}
+
+.header > .first-component > .admin-userName {
+  font-weight: bolder;
+}
+
+.header > .second-component {
+  display: grid;
+  align-items: center;
+
+  grid-template-columns: 75px 575px 100px 100px 100px;
+  /* grid-template-columns: 1fr 7fr 2fr 1fr 1fr; */
+  grid-template-rows: 70px;
+  padding-left: 25px;
+  gap: 25px;
+}
+
+.admin-profile-pic2 {
+  background-color: rgb(238, 172, 161);
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+}
+
+.greeting-container > .greeting-messsage {
+  font-size: 0.75rem;
+}
+.greeting-container > .userName {
+  font-size: 1.25rem;
+}
+.greeting-container > .greeting-messsage,
+.greeting-container > .userName {
+  font-weight: bolder;
+}
+
+.second-component > button {
+  height: 50%;
+  border-radius: 50px;
+  background-color: #1a92d3;
+  border: none;
+  color: white;
+  font-size: 0.95rem;
+  font-weight: bolder;
+}
 .main-content {
   background-color: #e2e8f0;
 }
+
+input {
+  border: 1px solid #e5e7eb;
+  height: 35px;
+  width: 100%;
+  border-radius: 20px;
+  background-color: #e2e8f0;
+}
+
+/* https://icon-sets.iconify.design/?query=bell */
