@@ -2,7 +2,7 @@
 
 Intermediate-Odin project
 
-<img src="image.png" alt="Alt text" width="300" height="300">
+<img src="image.png" alt="Alt text" width="700" height="700">
 
 ## Introduction
 
